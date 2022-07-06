@@ -3,7 +3,7 @@
   
 &emsp;This project is currently just getting started. Basic functionality has been implemented, but much more critical functionality and features have yet to be added. The end goal is simple. Any time I receive a check or make a purchase, I can click a button on my phone that will communicate with my home Linux server, run this program, and update the spreadsheet with current financial data. I chose this route mostly to learn how to utilize a home Linux server and communicate outside of the home network, but its also an easier way for me to have the most up to date information than leaving the program to run every 24 hours or a few times a day even when no transactions occur.
 
-&emsp;At its core, this program should accomplish the following once it is complete:
+At its core, this program should accomplish the following once it is complete:
 <pre>
     - Update Google Sheet with new data
     - Get data from the Google Sheet
@@ -11,16 +11,21 @@
     - Run in my home Linux environment
     - Be able to be updated easily to align with changes in financial institutions and/or their websites
 </pre>
-    
-&emsp;The tools used for this are fairly simple, including Selenium for webscraping,  and Gspread/Google's Sheets API to communicate with the spreadsheet.
+And, it currently uses the following tools in its implementation:
+<pre>
+    - Selenium
+    - Undetected Chromdriver
+    - GSpread
+    - Google Sheets API
+</pre>
   
   ![Google Sheet](worksheet_screenshot.png)
   
-&emsp;Everything starts with the spreadsheet, which is broken down into four categories: Income, Spending, Investments, and Remainder.
+Everything starts with the spreadsheet, which is broken down into four categories: Spending, Income, Investments, and Remainder.
   <pre>
-      Income - Tracks paychecks, displaying gross income, tax witholdings, net income, and the proportion of net income I've elected to partition into expenses,                      savings, investment accounts, and discretionary spending. Will accomodate for any non-paycheck income in the future.
-      
       Spending - Tracks any outward cash flow from my bank account. Total spending is broken down into expenses, investment, and discretionary spending. Each purchase                  is recorded with the date, amount, place, item (websites tend to give merely categorical data i.e. 'Restaurants' from Domino's but not 'Pizza'), type,                  and method.
+      
+      Income - Tracks paychecks, displaying gross income, tax witholdings, net income, and the proportion of net income I've elected to partition into expenses,                      savings, investment accounts, and discretionary spending. Will accomodate for any non-paycheck income in the future.
       
       Investments - Tracks the total amount paid into each position, and the account it was purchased under. This section could evolve into a whole development of its                     own, but in the short term I will simply be adding the current values for each position in the future.
       
