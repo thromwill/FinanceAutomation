@@ -32,7 +32,4 @@ Investments - Tracks the total amount paid into each position, and the account i
 Remainder - Tracks income I've alloted to a particular category that has yet to be spent. Quickly shows exactly how much money is left in my budget for each category.
 </pre>    
   
-&emsp;Google Sheet's functions and formulas allow the input to be fairly simple. One challenge, however, was entering and updating data in the right places. To deal with this each line is given an ID in the first column, with the text color set to match the background so that they become invisible. Any time a line needs to be entered or updated, the program looks in the first column for a particular keyword or hashed ID value so it knows where to update or add a new line. 
-
-![Google Sheet ID's](worksheet_ids_screenshot.png)
 
