@@ -1,13 +1,13 @@
   
-&emsp;When I started my first Co-op at Ameren, I wanted to maintain a spreadsheet that tracked each paycheck and stratified gross income into different categories so that I would know exactly how much money to put towards expenses, savings, investments, etc. However, manually entering each time I get a paycheck or spend money somewhere is tedious and time consuming, so I am building this tool to automate the process.
+&emsp;Now that I've started my first Co-op at Ameren, I want to maintain a spreadsheet that tracks each paycheck and stratifies gross income into different categories to break down exactly how much money to put towards expenses, savings, investments, etc. However, manually entering each time I get a paycheck or spend money is tedious and time consuming, so I am building this tool to automate the process.
   
-&emsp;This project is just getting started. Most core functionality has been implemented, but much more critical functionality and features have yet to be added. The end goal is simple. Any time I receive a check or make a purchase, I can click a button on my phone that will communicate with my home Linux server, run this program, and update the spreadsheet with current financial data. I chose this route mostly to learn how to utilize a Linux machine and communicate outside of my home network, but its also an easier way for me to have the most up to date information as opposed to leaving the program to execute every a few times a day even when no transactions occur.
+&emsp;This project is just getting started. Most core functionality has been implemented, but much more critical functionality and features have yet to be added. The end goal is simple. Any time I receive a check or make a purchase, I can click a button on my phone that will communicate with my home Linux server, run this program, and update the spreadsheet with current financial data. I chose this route mostly to learn how to utilize a Linux machine and communicate outside of my home network, but its also an easier way for me to have the most up to date information as opposed to leaving the program to execute a few times a day, even when no transactions occur.
 
 At its core, this program should accomplish the following once it is complete:
 <pre>
-    - Update Google Sheet with new data
     - Get data from the Google Sheet
-    - Scrape my financial institutions' webpages for my personal income/spending data
+    - Update the Google Sheet with new data
+    - Scrape my financial institutions' webpages for my personal income and spending data
     - Run in my home Linux environment
     - Be able to be updated easily to align with changes in financial institutions and/or their websites
 </pre>
