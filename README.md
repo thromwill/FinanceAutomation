@@ -7,8 +7,7 @@ At its core, the program should accomplishes the following:
     - Update a Google Sheet with new data
     - Collect data from the Google Sheet
     - Run in my personal Linux environment
-    - Be able to be updated easily to align with changes in financial institutions and/or their websites
-    
+    - Be able to be updated easily to align with changes in financial institutions and/or their websites   
 </pre>
 It currently uses the following tools in its implementation:
 <pre>
