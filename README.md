@@ -1,4 +1,4 @@
-&emsp;After starting my first Co-op at Ameren, I wanted to maintain a spreadsheet that tracks my earnings and stratifies gross income into groups like expenses, savings, and investments. I developed this project to automate the process of recording and organizing this financial data into meaningful insights.
+&emsp;After starting my first Co-op at Ameren, I wanted to maintain a spreadsheet that tracks my earnings and stratifies gross income into groups like expenses, savings, and investments. I developed this project using Python to automate the process of recording and organizing this financial data into meaningful insights.
 
 At its core, the program should accomplishes the following:
 <pre>
