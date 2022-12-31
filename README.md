@@ -1,3 +1,5 @@
+# Finance Automation <img align="right" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
+
 After starting my first Co-op at Ameren, I decided to maintain a spreadsheet to track my earnings and stratify gross income into groups like expenses, savings, and investments. I developed this project using Python to automate recording and organizing financial data into meaningful insights.
 
 At its core, the program should accomplish the following:
